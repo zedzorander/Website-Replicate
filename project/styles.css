@@ -260,7 +260,7 @@ body {
 #arches {
     display: grid;
     background-color: #464448;
-    color: white;
+    color: #E7DCD8;
 }
 
 #arches .description {
@@ -293,4 +293,36 @@ body {
 #arches .info {
     font-size: 22px;
     font-family: Merriweather;
+}
+
+#package {
+    background-color: #F8F6F6;
+}
+
+#content4 {
+    display: grid;
+}
+
+#package #box {
+    display: flex;
+}
+
+#package #box #mac {
+    display: grid;
+}
+
+#package #box #options {
+    display: grid;
+}
+
+#package #content4 #box #mac #mac1{
+    background-color: #D3CBC9;
+}
+
+#package #content4 #box #mac #mac2{
+    background-color: #B2A2AF;
+}
+
+#package #content4 #box #mac #mac3{
+    background-color: #EDDEEF;
 }

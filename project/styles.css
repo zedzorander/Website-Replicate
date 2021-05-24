@@ -301,18 +301,38 @@ body {
 
 #content4 {
     display: grid;
+    justify-content: center;
+    width: 80%;
+}
+
+#content4 #description {
+    font-size: 35px;
+    justify-self: center;
+    width: 70%;
+    font-family: "proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif;
+    margin: 100px 0px 75px 300px;
+    text-align: center;
 }
 
 #package #box {
     display: flex;
+    justify-content: center;
 }
 
 #package #box #mac {
     display: grid;
+    row-gap: 33px;
 }
 
 #package #box #options {
     display: grid;
+    margin-left: 135px;
+}
+
+#package #box #options p {
+    font-size: 25px;
+    line-height: 25px;
+    margin: 0px;
 }
 
 #package #content4 #box #mac #mac1{
@@ -325,4 +345,31 @@ body {
 
 #package #content4 #box #mac #mac3{
     background-color: #EDDEEF;
+}
+
+#package #moneyShit {
+    display: grid;
+    justify-content: center;
+    margin-top: 100px;
+    text-align: center;
+}
+
+#package #moneyShit #text1 {
+    font-size: 25px;
+}
+
+#package #moneyShit #text2 {
+    margin: 5px 0 65px 0;
+}
+
+#package #moneyShit #link1 {
+    font-size: 40px;
+    text-transform: lowercase;
+    color: #D47172;
+    font-family: "proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+#package #moneyShit #text3 {
+    font-size: 20px;
+    margin: 50px 0 100px 0;
 }

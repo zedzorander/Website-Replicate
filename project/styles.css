@@ -274,6 +274,7 @@ body {
     display: flex;
     justify-content: center;
     column-gap: 10px;
+    margin-bottom: 100px;
 }
 
 #arches #mainDescription {
@@ -322,17 +323,18 @@ body {
 #package #box #mac {
     display: grid;
     row-gap: 33px;
+    width: 418px;
 }
 
 #package #box #options {
     display: grid;
-    margin-left: 135px;
+    margin-left: 200px;
+    margin-top: 30px;
+    grid-template-rows: repeat(16, 60px);
 }
 
 #package #box #options p {
     font-size: 25px;
-    line-height: 25px;
-    margin: 0px;
 }
 
 #package #content4 #box #mac #mac1{
@@ -434,4 +436,30 @@ body {
     text-decoration: none;
     justify-self: center;
     margin-bottom: 100px;
+}
+
+#section10 {
+    background-color: #A67787;
+    color: #F9F6F5;
+}
+
+/* #section10 #direction {
+    display: flex;
+}
+
+#section10 #direction p {
+    margin-right: 20px;
+    font-size: 30px;
+} 
+*/
+
+#section10 #testimonials #testis {
+    display: flex;
+    padding: 50px;
+}
+
+#section10 #testimonials #testis p {
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
 }

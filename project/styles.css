@@ -523,3 +523,18 @@ body {
     justify-self: center;
     margin-bottom: 100px;
 }
+
+#section12 {
+    display: grid;
+    background-color: #A0995A;
+    color: #F9F6F5;
+}
+
+#section12 #faqs h4 {
+    margin-left: 5px;
+}
+
+#section12 #faqs {
+    margin: 100px 0px 100px 350px;
+    font-size: 22px;
+}
